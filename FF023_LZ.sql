@@ -1,13 +1,13 @@
 -- Setup the environment
 create schema challenge_23;
-
 use schema challenge_23;
 
 -- SnowSQL part
 -- Login
-snowsql - a cd35415.eu - west -1 - u ff23 -- Set context
-use role SYSADMIN;
+snowsql -a cd35415.eu-west-1 -u ff23 
 
+-- Set context
+use role SYSADMIN;
 use SCHEMA FROSTYFRIDAY.challenge_23;
 
 -- Create stage for load
